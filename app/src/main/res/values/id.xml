@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextPassword" type="id" />
+    <item name="buttonLogin" type="id" />
+    <item name="btnRegister" type="id" />
+    <item name="editTextUsername" type="id" />
+    <item name="ivTogglePassword" type="id" />
+    <item name="etRepassword" type="id" />
+</resources>
