@@ -27,6 +27,9 @@ public class SewaMobilActivity<string> extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sewa_mobil);
+
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         nama_penyewa = findViewById(R.id.nama_penyewa);
         ad_listmobil = findViewById(R.id.ad_listmobil);
         harga_mobil = findViewById(R.id.harga_mobil);
