@@ -14,6 +14,9 @@ public class StrukActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_struk);
+
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         nama_penyewa = findViewById(R.id.nama_penyewa);
         jenis_mobil = findViewById(R.id.jenis_mobil);
         lama_sewa = findViewById(R.id.lama_sewa);
